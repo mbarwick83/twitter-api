@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Laravel 5.1 wrapper/extension of the popular PHP library for the Twitter OAuth REST API. https://github.com/abraham/twitteroauth. This package has been modified and updates are not pulled directly from Abraham's package.
+Laravel 5.* wrapper/extension of the popular PHP library for the Twitter OAuth REST API. https://github.com/abraham/twitteroauth. This package has been modified and updates are not pulled directly from Abraham's package.
 
 ## Installation
 
