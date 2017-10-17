@@ -117,8 +117,8 @@ class TwitterApi extends Config
 
         if ($request_token)
         {
-            Session::set('oauth_token', $request_token['oauth_token']);
-            Session::set('oauth_token_secret', $request_token['oauth_token_secret']);
+            Session::put('oauth_token', $request_token['oauth_token']);
+            Session::put('oauth_token_secret', $request_token['oauth_token_secret']);
 
             $url = $this->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
             return $url;
